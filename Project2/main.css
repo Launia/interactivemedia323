@@ -1,0 +1,164 @@
+body {
+    background-color: palevioletred;
+}
+
+div.navigationPage {
+    position: relative;
+    width: 100%;
+    height: 3000px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.one {
+    position: absolute;
+    font-size: 110px;
+    left: 5%;
+    top: 3%;
+}
+.two {
+    position: absolute;
+    font-size: 100px;
+    left: 90%;
+    top: 1%;
+}
+.three {
+    position: absolute;
+    font-size: 520px;
+    left: 35%;
+    top: 1%;
+}
+.four {
+    position: absolute;
+    font-size: 40px;
+    left: 15%;
+    top: 12%;
+}
+.five {
+    position: absolute;
+    font-size: 170px;
+    left: 78%;
+    top: 15%;
+}
+.six {
+    position: absolute;
+    font-size: 180px;
+    left: 25%;
+    top: 20%;
+}
+.seven {
+    position: absolute;
+    font-size: 70px;
+    left: 60%;
+    top: 26%;
+}
+.eight {
+    position: absolute;
+    font-size: 570px;
+    left: 4%;
+    top: 28%;
+}
+.nine {
+    position: absolute;
+    font-size: 310px;
+    left: 83%;
+    top: 24%;
+}
+.ten {
+    position: absolute;
+    font-size: 180px;
+    left: 63%;
+    top: 44%;
+}
+.eleven {
+    position: absolute;
+    font-size: 40px;
+    left: 80%;
+    top: 48%;
+}
+.twelve {
+    position: absolute;
+    font-size: 80px;
+    left: 85%;
+    top: 50%;
+}
+.thirteen {
+    position: absolute;
+    font-size: 300px;
+    left: 50%;
+    top:48% ;
+}
+.fourteen {
+    position: absolute;
+    font-size: 100px;
+    left: 1%;
+    top: 54%;
+}
+.fifteen {
+    position: absolute;
+    font-size: 350px;
+    left: 10%;
+    top: 65%;
+}
+.sixteen {
+    position: absolute;
+    font-size: 40px;
+    left: 35%;
+    top: 60%;
+}
+.seventeen {
+    position: absolute;
+    font-size:510px;
+    left: 45%;
+    top: 58%;
+}
+.eighteen {
+    position: absolute;
+    font-size: 150px;
+    left: 42%;
+    top: 75%;
+}
+.nineteen {
+    position: absolute;
+    font-size: 60px;
+    left: 96%;
+    top: 65%;
+}
+.twenty {
+    position: absolute;
+    font-size: 580px;
+    left: 1%;
+    top: 83%;
+}
+.twenty-one {
+    position: absolute;
+    font-size: 40px;
+    left: 63%;
+    top: 86%;
+}
+.twenty-two {
+    position: absolute;
+    font-size: 100px;
+    left: 35%;
+    top: 90%;
+}
+.twenty-three {
+    position: absolute;
+    font-size: 200px;
+    left: 58%;
+    top: 102%;
+}
+.twenty-four {
+    position: absolute;
+    font-size: 90px;
+    left: 72%;
+    top: 87%;
+}
+.twenty-five {
+    position: absolute;
+    font-size: 100px;
+    left: 90%;
+    top: 101%;
+}

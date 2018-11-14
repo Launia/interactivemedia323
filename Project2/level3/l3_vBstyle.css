@@ -1,0 +1,13 @@
+.main {
+	border: 10px solid black;
+	width: 600px;
+	text-align: center;
+	position: fixed;
+}
+.subMain{
+	border: 10px dotted grey;
+	width: 600px;
+	text-align: center;
+	
+	color: grey;
+}

@@ -1,0 +1,24 @@
+.left {
+    position: relative;
+    float: left;
+    width: 50%;
+    font-size: 40px;
+    color: white;
+}
+
+.right {
+    position: relative;
+    float: right;
+    width: 50%;
+    font-size: 70px;
+    color: black;
+    background-color: black;
+}
+
+div.right:hover {
+    background-color: white;
+}
+
+div.left:hover {
+    background-color: black;
+}

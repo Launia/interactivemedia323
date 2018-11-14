@@ -1,0 +1,127 @@
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Finger+Paint);
+
+body {
+  background: black;
+  overflow: auto;
+  font: 2vw/100vh "Finger Paint";
+  text-align: center;
+  color: transparent;
+  backface-visibility: hidden;
+}
+
+div.text {
+  display: block;
+}
+
+span.word {
+  display: inline-block;
+  text-shadow: 0 0 0 whitesmoke;
+}
+
+span:nth-child(even){
+  animation-name: smoky-mirror;
+}
+
+
+#b {
+  animation: smoky 10s 2s both;
+}
+#a {
+  animation: smoky 10s 5s both;
+}
+#c {
+  animation: smoky 10s 8s both;
+}
+#d {
+  animation: smoky 10s 11s both;
+}
+#e {
+  animation: smoky 10s 14s both;
+}
+#f {
+  animation: smoky 10s 17s both;
+}
+#g {
+  animation: smoky 10s 20s both;
+}
+#h {
+  animation: smoky 10s 23s both;
+}
+#i {
+  animation: smoky 10s 26s both;
+}
+#j {
+  animation: smoky 10s 29s both;
+}
+#k {
+  animation: smoky 10s 31s both;
+}
+#l {
+  animation: smoky 10s 33s both;
+}
+#m {
+  animation: smoky 10s 35s both;
+}
+#n {
+  animation: smoky 10s 38s both;
+}
+#o {
+  animation: smoky 10s 41s both;
+}
+#p {
+  animation: smoky 10s 44s both;
+}
+#q {
+  animation: smoky 10s 47s both;
+}
+#r {
+  animation: smoky 10s 50s both;
+}
+#s {
+  animation: smoky 10s 53s both;
+}
+#t {
+  animation: smoky 10s 58s both;
+}
+#u {
+  animation: smoky 10s 61s both;
+}
+#v {
+  animation: smoky 20s 65s both;
+}
+@keyframes smoky {
+  60% {
+    text-shadow: 0 0 40px whitesmoke;
+  }
+  to {
+    transform:
+      translate3d(15rem,-8rem,0)
+      rotate(-40deg)
+      skewX(70deg)
+      scale(1.5);
+    text-shadow: 0 0 20px whitesmoke;
+    opacity: 0;
+  }
+}
+
+@keyframes smoky-mirror {
+  60% {
+    text-shadow: 0 0 40px whitesmoke; }
+  to {
+    transform:
+      translate3d(18rem,-8rem,0)
+      rotate(-40deg) 
+      skewX(-70deg)
+      scale(2);
+     text-shadow: 0 0 20px whitesmoke;
+    opacity: 0;
+  }
+}
+
+@for $item from 1 through 21 {
+  span:nth-of-type(#{$item}){ 
+    animation-delay: #{(3 + ($item/10))}s; 
+  }
+}

@@ -1,0 +1,29 @@
+.one {
+    border:5px solid black;
+    width: 250px;
+}
+
+.two {
+    border:2px dotted black;
+    width: 200px;
+    margin-left: 800px;
+}
+
+.three {
+    border: 5px solid black;
+    width: 100px;
+}
+
+.four {
+    border: 2px dashed black;
+}
+
+.five {
+    border: 5px solid black;
+    margin-left: 900px;
+}
+
+.six {
+    border: 2px dotted black;
+    width: 200px;
+}

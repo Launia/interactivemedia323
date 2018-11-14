@@ -1,0 +1,29 @@
+#one {
+    font-size: 50px;
+    display: block;
+}
+
+#two {
+    font-size: 30px;
+    display: block;
+}
+
+#three {
+    font-size: 20px;
+    display: block;
+}
+
+#four {
+    font-size: 60px;
+}
+#detail {
+    border: 3px dashed black;
+    padding: 5px;
+}
+
+#details {
+    font-style: oblique;
+}
+div.one {
+    margin: 600px;
+}

@@ -1,0 +1,16 @@
+.one {
+    border: 12px solid lightgrey;
+    color: grey;
+    margin: 100px;
+}
+
+.two {
+    border: 4px inset black;
+    color: black;
+}
+
+.three {
+    border: 15px dashed grey;
+    margin: 200px;
+    color: lightgrey;
+}

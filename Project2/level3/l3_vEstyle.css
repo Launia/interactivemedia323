@@ -1,0 +1,15 @@
+#one {
+    border:3px solid grey;
+    display: inline-block;
+    color: grey;
+    margin: 5px 5px 5px 5px;
+    padding: 5px;
+}
+
+#two {
+    border:10px solid lightgrey;
+    display: inline-block;
+    color: lightgrey;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+}

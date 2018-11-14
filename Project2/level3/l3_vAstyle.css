@@ -1,0 +1,21 @@
+.DivOne {
+	border: 8px solid black;
+	width: 600px;
+	float: left;
+}
+
+#paragraphOne {
+	margin: 10px 10px 10px 10px;
+}
+
+.DivTwo {
+	border: 8px dotted black;
+	width: 600px;
+	margin-top: 10px;
+	float: right;
+}
+
+#paragraphTwo {
+	margin: 10px 10px 10px 10px;
+}
+

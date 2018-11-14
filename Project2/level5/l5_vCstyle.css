@@ -1,0 +1,76 @@
+p {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+p#one {
+    color: aqua;
+}
+p#two {
+    color: pink;
+}
+p#three {
+    color: yellow;
+}
+p#four {
+    color: lightgreen;
+}
+p#five {
+    color: purple;
+}
+p#six {
+    color: orange;
+}
+p#seven {
+    color: deepskyblue;
+}
+p#eight {
+    color: hotpink;
+}
+p#nine {
+    color: coral;
+}
+
+
+.one {
+    background-color: aqua;
+}
+.two {
+    background-color: pink;
+}
+.three {
+    background-color: yellow;
+}
+.four {
+    background-color: lightgreen;
+}
+.five {
+    background-color: purple;
+}
+.six {
+    background-color: orange;
+}
+.seven {
+    background-color: deepskyblue;
+}
+.eight {
+    background-color: hotpink;
+}
+.nine {
+    background-color: coral;
+}
+div {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    border: 5px dashed black;
+    width: 550px;
+    height: 650px;
+}
+div:hover {
+    background-color: black;
+}
